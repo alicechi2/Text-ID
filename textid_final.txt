@@ -1,0 +1,32 @@
+Model 1: Shakespeare
+Model 2: Edgar Allen Poe
+
+Text 1: Unknown text 1 (Lewis Carroll)
+
+words: vsTM1: -3008.1339766977035, vsTM2: -2831.1948123692314
+wordslength: vsTM1: -1031.7029885215325, vsTM2: -995.3141863685869
+stems: vsTM1: -2983.7979268023773, vsTM2: -2814.7367306623523
+sentencelengths: vsTM1: -137.79683528787524, vsTM2: -123.87673326283638
+punct: vsTM1: -304.60081099034556, vsTM2: -259.1748452079035
+Model 1 wins on 0 features
+Model 2 wins on 5 features
+Model 2 is the better match!
+
+Text 2: Unknown text 2 (Micheal Drayton)
+
+words: vsTM1: -947.5315363021597, vsTM2: -974.5943501407714
+wordslength: vsTM1: -308.73167629122685, vsTM2: -306.3487085246181
+stems: vsTM1: -941.1507360288733, vsTM2: -969.1669557319481
+sentencelengths: vsTM1: -33.756061641408856, vsTM2: -29.884860630500963
+punct: vsTM1: -49.270965890113004, vsTM2: -40.18864501425612
+Model 1 wins on 2 features
+Model 2 wins on 3 features
+Model 2 is the better match!
+
+Results:
+
+Using my Text ID program which compares words used, word lengths, stems, sentence lengths, and punctuation, I was able to compare two texts to texts from William Shakespeare and Edgar Allen Poe. 
+
+For text 1, which was written by Lewis Carroll, it matched better with Edgar Allen Poe's writings for all five features. Looking at the probabilities however, all of the probabilities are very negative, the matchings with Poe's writings were just less negative than the matchings with Shakespeare's writings. Thus, all that can be concluded is that Lewis Carroll's writing is more similar to Poe's than it is to Shakespeare's even though Carroll's writing isn't really similar to either of them. These results were somewhat expected becasue Lewis Carroll writes in a more modern style that is more similar to Poe than it is to Shakespeare's Elizabethian language. 
+
+For text 2, which was written by Micheal Drayton, matched with Shakespeare's writings on two features and with Poe's writing on three features which results in a better matching with Poe's writing. Same as before, all of the probabilities are very negative and the matchings with Poe's writings were just less negative than the matchings with Shakespeare's writings. However the results were a bit closer this time splitting matches between the two writers pretty evenly. This result is a bit surprising becaue Micheal Drayton was a poet during Shakepeare's time so I expected his writings to match better with Shakespeare but there are other writing subtleties other than just the Elizabethian language that made Drayton's writings match better with Poe. 
