@@ -3,7 +3,7 @@
 #
 # TextModel project!
 #
-# name(s): Alice Chi
+# name: Alice Chi
 #
 
 from collections import defaultdict
@@ -27,7 +27,6 @@ TextModel1 +=  [ stems1 ]        # add that dictionary in...
 sentencelengths1 = {}  # default dictionary for counting sentence lengths
 TextModel1 +=  [ sentencelengths1 ]  # add that dictionary in...
 
-# create another of your own...
 punctuation1 = {}       # default dictionary for counting punctuation
 TextModel1 +=  [ punctuation1 ]    # add that dictionary in...
 
@@ -49,9 +48,6 @@ def printAllDictionaries( TM ):
     print("\nSentence lengths:\n", sentencelengths)
     print("\nPunctuation:\n", punct)
     print("\n\n")
-
-
-# include other functions here...
 
 def readTextFromFile(filename):
     ''' take stext from a file and returns it as a string
@@ -266,8 +262,3 @@ def compareTextWithTwoModels(newmodel, model1, model2):
     else:
         print("Model 2 is the better match!")
 
-
-
-# and, test things out here...
-#print("TextModel1:")
-#printAllDictionaries( TextModel1 )
