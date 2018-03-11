@@ -6,7 +6,7 @@ Text-ID takes in two texts and creates models for them based off word usage, the
 sentence lengths, and puncutaion used. Using these models it can take an unknown text and indetify, between the two models given, who
 was more likely to have written the unknown text.
 
-To use compare a text against two models use the function
+To compare a text against two models first run textid_final.py, then use the function:
 
 compareTextWithTwoModels(<unknown text>, <text for model 1>, <text for model 2>)
 
