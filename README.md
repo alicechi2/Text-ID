@@ -1,6 +1,6 @@
 # Text-ID
 
-HOW TO USE:
+## How To Use
 
 Text-ID takes in two texts and creates models for them based off word usage, their average word lengths, common stems they use, average
 sentence lengths, and puncutaion used. Using these models it can take an unknown text and indetify, between the two models given, who
